@@ -7,7 +7,7 @@ import UserForm from "./components/UserForm";
 const App = () => {
   return (
     <Router>
-      <div className="bg-[#b7c2cc]">
+      <div className="">
         <h1 className="text-5xl   text-center">User Management</h1>
         <Routes>
           <Route path="/" element={<UserList />} />
@@ -20,13 +20,3 @@ const App = () => {
 };
 
 export default App;
-
-
-
-{
-  /* <Route path="/" element={<UserList />} /> {/* Home view */
-}
-//   <Route path="/users/:id" element={<UserDetails />} /> {/* Detailed view */}
-//   <Route path="/add-user" element={<UserForm />} /> {/* Route for adding a new user */}
-//   <Route path="/edit-user/:id" element={<UserForm />} />  */}
-//   Route for editing a user
