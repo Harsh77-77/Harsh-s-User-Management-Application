@@ -92,7 +92,7 @@ const UserForm = ({ user, setUsers }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="space-y-4 p-4  lg:grid lg:grid-cols-2 rounded-lg shadow-md max-w-md  lg:w-[600px] mx-auto "
+      className="space-y-4 p-4 lg:grid lg:grid-cols-2 rounded-lg shadow-md w-[300px] md:w-auto  lg:w-[600px] mx-auto "
     >
       <input
         name="name"
